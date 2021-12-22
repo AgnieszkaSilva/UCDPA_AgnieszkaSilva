@@ -28,7 +28,7 @@ print(dm_income_adj.head())
 
 # Adding a new column that shows the difference between the total and inflation adjusted gross incomes
 new_dm["adjusted_gross_difference"] = new_dm["inflation_adjusted_gross"] - new_dm["total_gross"]
-print(dm)
+print(new_dm)
 
 # Setting default chart styles via Seaborn
 sns.set_style("dark")
